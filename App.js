@@ -9,7 +9,7 @@ function removeLoader() {
 }
 
 
-
+gsap.registerPlugin(ScrollTrigger)
 function basicAnimation() {
   tl.from('body', {
     duration: 2,
